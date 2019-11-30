@@ -1,7 +1,28 @@
-#
-#
-#
-#https://web.stanford.edu/~hastie/ElemStatLearn/datasets/
+#Wykrywanie Choroby Niedokrwiennej Serca (CHD)
+#Zadanie polega na wytrenowaniu sztucznej sieci neuronowej tak aby
+#wykrywa³a wyst¹pienie CHD u pacjenta
+#Na podstawie:
+#sbp - skurczowe ciœnienie krwi
+#tobacco - tytoñ skumulowany (kg)
+#ldl - Cholesterol lipoproteinowy o niskiej gêstoœci
+#adiposity - oty³oœæ
+#famhist - rodzinna historia chorób serca (1 - obecna, 0 - nieobecna)
+#typea - zachowania typu A
+#obesity - oty³oœæ
+#alcohol - aktualne zu¿ycie alkoholu
+#age - wiek na pocz¹tku
+#chd - choroba niedokrwienna serca
+#Retrospektywna próbka danych mê¿czyzn z regionu wysokiego ryzyka choroby serca
+#Prowincji Przyl¹dkowej Zachodniej w RPA.
+#Istniej¹ mniej wiêcej dwie kontrole na przypadek CHD.
+#Wielu mê¿czyzn z pozytywnym wynikiem CHD przesz³o
+#leczenie obni¿aj¹ce ciœnienie krwi i inne programy maj¹ce na celu
+#zmniejszenie czynników ryzyka po wyst¹pieniu CHD.
+#W niektórych przypadkach pomiary by³y wykonane po tych zabiegach.
+#Dane te pochodz¹ z wiêkszego zbioru danych, opisany w:
+#Rousseauw et al, 1983, South African Medical Journal. 
+#Ÿród³o: https://web.stanford.edu/~hastie/ElemStatLearn/datasets/
+#Metoda oceniania: hold-out, lambda=2/3
 
 library(AMORE)
 
